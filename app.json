@@ -1,13 +1,22 @@
 
 {
   "env": {
-    "SECRET_TOKEN": {
+    "Token": {
       "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
+      "value": "5"
     },
-    "WEB_CONCURRENCY": {
+    "MaxFileSize": {
       "description": "The number of processes to run.",
       "value": "5"
+      },
+    "Admins": {
+      "description": "The number of processes to run.",
+      "value": "5"
+      },
+    "DownloadPath": {
+      "description": "The number of processes to run.",
+      "value": "./downloads"
     }
+   
   }
 }
